@@ -1,0 +1,7 @@
+{
+  "date": "Day",
+  "amount": "Net",
+  "counterparty": "Who",
+  "raw_memo": "Note",
+  "currency": "CCY"
+}

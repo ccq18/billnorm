@@ -1,0 +1,26 @@
+input_files=4
+parsed_files=3
+ledger_rows=8
+mapped=8
+duplicate=0
+skipped=7
+rejected=4
+
+[source_totals]
+alipay CNY 22.50
+generic CNY -10.25
+generic USD 2.00
+wechat CNY -7.75
+
+[category_guess_totals]
+food CNY -35.25
+refund CNY 13.00
+refund USD 2.00
+transfer CNY 30.00
+transport CNY -3.25
+
+[sha256]
+8ba795b928a1c3e0e9873994867fa0e05155437f48cfcf8d8f063bc95aa5a327  "01-alipay.csv"
+afe67a9e3fe73d678f14a0f08042c2f2792d7d50e3ddccfd9cc445b9ca855991  "02-wechat.csv"
+4fd2921141bee4f53357f13687df57a89d3ce9eb7769f5cda04f2bae52ca41d8  "03-generic.csv"
+0172855d373791e90b1ad5cc9da12b63ec95d71657341e3dff644dc3fde74364  "04-broken.csv"

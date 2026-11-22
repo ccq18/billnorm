@@ -1,0 +1,9 @@
+date,time,amount,currency,direction,source,counterparty,raw_memo,category_guess,source_file,source_row
+2026-01-02,08:00:00,-12.50,CNY,expense,alipay,虚构晨光铺,早餐,food,01-alipay.csv,4
+2026-01-03,16:00:00,5.00,CNY,income,alipay,虚构书摊,退款,refund,01-alipay.csv,5
+2026-01-04,12:00:00,30.00,CNY,income,alipay,虚构收款人,转账,transfer,01-alipay.csv,6
+2026-01-02,08:30:00,-12.50,CNY,expense,wechat,虚构晨光铺,早餐,food,02-wechat.csv,3
+2026-01-05,09:00:00,-3.25,CNY,expense,wechat,虚构车站,地铁,transport,02-wechat.csv,4
+2026-01-06,17:00:00,8.00,CNY,income,wechat,虚构鞋铺,退款,refund,02-wechat.csv,5
+2026-01-08,,-10.25,CNY,expense,generic,Imaginary Cafe,"coffee, with milk",food,03-generic.csv,3
+2026-01-09,,2.00,USD,income,generic,Imaginary Shop,refund,refund,03-generic.csv,4

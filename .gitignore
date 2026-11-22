@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.Python
+.selftest.*/
+billnorm-out/
+.output/
+.DS_Store
+.env
+.env.*
+*.pem
+id_ed25519
+id_rsa
